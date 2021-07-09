@@ -32,7 +32,7 @@ def read_file(numlines):
 
             for line in sorted_lines:
                 if count > 0:
-                    print(line)
+                    print(line.strip())
                     count -= 1
 
 authenticate()
